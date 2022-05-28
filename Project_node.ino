@@ -6,13 +6,13 @@
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 /************************* WiFi Access Point *********************************/
-#define WLAN_SSID       "GIRLSTEAM"
-#define WLAN_PASS       "RobotX2022"
+#define WLAN_SSID       "Your wifi name"
+#define WLAN_PASS       "wifi password"
 /************************* Adafruit.io Setup *********************************/
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "TeamX2022"
-#define AIO_KEY         "aio_ZBmq41fLR7CSoMmdK2gPQFphT0rI"
+#define AIO_USERNAME    "username"
+#define AIO_KEY         "your key"
 /**************************PINS Setup ********************************************/
 
 int Left_Fire = D6 ;            
